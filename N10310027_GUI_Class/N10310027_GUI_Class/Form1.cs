@@ -16,5 +16,10 @@ namespace N10310027_GUI_Class
         {
             InitializeComponent();
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

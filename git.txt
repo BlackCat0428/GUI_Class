@@ -14,3 +14,17 @@ git commit –m "註解"
 
 git push -u origin main
 	將程式碼Push到GitHub上
+
+
+git clone https://github.com/BlackCat0428/GUI_Class
+
+git add .
+
+git config --global user.email "ries3330@gmail.com"
+
+
+git config --global user.name "BlackCat"
+
+git commit –m "註解"
+
+git push -u origin main
