@@ -32,6 +32,7 @@
             this.label_ID = new System.Windows.Forms.Label();
             this.label_Name = new System.Windows.Forms.Label();
             this.btnButton = new System.Windows.Forms.Button();
+            this.btnTextBox = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label_Class
@@ -73,7 +74,7 @@
             // btnButton
             // 
             this.btnButton.Location = new System.Drawing.Point(25, 174);
-            this.btnButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnButton.Margin = new System.Windows.Forms.Padding(4);
             this.btnButton.Name = "btnButton";
             this.btnButton.Size = new System.Drawing.Size(133, 53);
             this.btnButton.TabIndex = 3;
@@ -81,17 +82,29 @@
             this.btnButton.UseVisualStyleBackColor = true;
             this.btnButton.Click += new System.EventHandler(this.btnButton_Click);
             // 
+            // btnTextBox
+            // 
+            this.btnTextBox.Location = new System.Drawing.Point(25, 266);
+            this.btnTextBox.Margin = new System.Windows.Forms.Padding(4);
+            this.btnTextBox.Name = "btnTextBox";
+            this.btnTextBox.Size = new System.Drawing.Size(133, 53);
+            this.btnTextBox.TabIndex = 4;
+            this.btnTextBox.Text = "文字框";
+            this.btnTextBox.UseVisualStyleBackColor = true;
+            this.btnTextBox.Click += new System.EventHandler(this.btnTextBox_Click);
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1067, 600);
+            this.Controls.Add(this.btnTextBox);
             this.Controls.Add(this.btnButton);
             this.Controls.Add(this.label_Name);
             this.Controls.Add(this.label_ID);
             this.Controls.Add(this.label_Class);
             this.Font = new System.Drawing.Font("標楷體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FormMain";
             this.Text = "GUI主程式";
             this.ResumeLayout(false);
@@ -105,6 +118,7 @@
         private System.Windows.Forms.Label label_ID;
         private System.Windows.Forms.Label label_Name;
         private System.Windows.Forms.Button btnButton;
+        private System.Windows.Forms.Button btnTextBox;
     }
 }
 

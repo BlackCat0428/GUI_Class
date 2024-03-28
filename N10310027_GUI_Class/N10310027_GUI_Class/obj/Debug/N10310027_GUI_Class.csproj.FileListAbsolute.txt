@@ -9,3 +9,4 @@ C:\Users\MEGAS\Desktop\GUI_Class\N10310027_GUI_Class\N10310027_GUI_Class\obj\Deb
 C:\Users\MEGAS\Desktop\GUI_Class\N10310027_GUI_Class\N10310027_GUI_Class\obj\Debug\N10310027_GUI_Class.pdb
 C:\Users\MEGAS\Desktop\GUI_Class\N10310027_GUI_Class\N10310027_GUI_Class\obj\Debug\N10310027_GUI_Class.FormButton.resources
 C:\Users\MEGAS\Desktop\GUI_Class\N10310027_GUI_Class\N10310027_GUI_Class\obj\Debug\N10310027_GUI_Class.FormMain.resources
+C:\Users\MEGAS\Desktop\GUI_Class\N10310027_GUI_Class\N10310027_GUI_Class\obj\Debug\N10310027_GUI_Class.FormTextBox.resources
