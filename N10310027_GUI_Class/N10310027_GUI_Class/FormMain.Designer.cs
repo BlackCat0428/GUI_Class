@@ -33,6 +33,7 @@
             this.label_Name = new System.Windows.Forms.Label();
             this.btnButton = new System.Windows.Forms.Button();
             this.btnTextBox = new System.Windows.Forms.Button();
+            this.btnMid = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label_Class
@@ -93,11 +94,22 @@
             this.btnTextBox.UseVisualStyleBackColor = true;
             this.btnTextBox.Click += new System.EventHandler(this.btnTextBox_Click);
             // 
+            // btnMid
+            // 
+            this.btnMid.Location = new System.Drawing.Point(25, 358);
+            this.btnMid.Name = "btnMid";
+            this.btnMid.Size = new System.Drawing.Size(133, 53);
+            this.btnMid.TabIndex = 5;
+            this.btnMid.Text = "期中考-攝氏轉華氏";
+            this.btnMid.UseVisualStyleBackColor = true;
+            this.btnMid.Click += new System.EventHandler(this.btnMid_Click);
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1067, 600);
+            this.Controls.Add(this.btnMid);
             this.Controls.Add(this.btnTextBox);
             this.Controls.Add(this.btnButton);
             this.Controls.Add(this.label_Name);
@@ -119,6 +131,7 @@
         private System.Windows.Forms.Label label_Name;
         private System.Windows.Forms.Button btnButton;
         private System.Windows.Forms.Button btnTextBox;
+        private System.Windows.Forms.Button btnMid;
     }
 }
 
