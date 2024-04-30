@@ -34,5 +34,12 @@ namespace N10310027_GUI_Class
             Form form = new FormMid();
             form.Show();
         }
+
+        private void btnHW2_Click(object sender, EventArgs e)
+        {
+            Form form = new FormHW2();
+            form.Show();
+
+        }
     }
 }

@@ -34,6 +34,7 @@
             this.btnButton = new System.Windows.Forms.Button();
             this.btnTextBox = new System.Windows.Forms.Button();
             this.btnMid = new System.Windows.Forms.Button();
+            this.btnHW2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label_Class
@@ -104,11 +105,23 @@
             this.btnMid.UseVisualStyleBackColor = true;
             this.btnMid.Click += new System.EventHandler(this.btnMid_Click);
             // 
+            // btnHW2
+            // 
+            this.btnHW2.Location = new System.Drawing.Point(25, 453);
+            this.btnHW2.Margin = new System.Windows.Forms.Padding(4);
+            this.btnHW2.Name = "btnHW2";
+            this.btnHW2.Size = new System.Drawing.Size(133, 53);
+            this.btnHW2.TabIndex = 6;
+            this.btnHW2.Text = "作業2";
+            this.btnHW2.UseVisualStyleBackColor = true;
+            this.btnHW2.Click += new System.EventHandler(this.btnHW2_Click);
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1067, 600);
+            this.Controls.Add(this.btnHW2);
             this.Controls.Add(this.btnMid);
             this.Controls.Add(this.btnTextBox);
             this.Controls.Add(this.btnButton);
@@ -132,6 +145,7 @@
         private System.Windows.Forms.Button btnButton;
         private System.Windows.Forms.Button btnTextBox;
         private System.Windows.Forms.Button btnMid;
+        private System.Windows.Forms.Button btnHW2;
     }
 }
 
