@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace N10310027_GUI_Class
 {
-    public partial class FormMain : Form
+    public partial class Timer : Form
     {
-        public FormMain()
+        public Timer()
         {
             InitializeComponent();
         }
@@ -38,6 +38,13 @@ namespace N10310027_GUI_Class
         private void btnHW2_Click(object sender, EventArgs e)
         {
             Form form = new FormHW2();
+            form.Show();
+
+        }
+
+        private void btnTimer_Click(object sender, EventArgs e)
+        {
+            Form form = new FormTimer();
             form.Show();
 
         }

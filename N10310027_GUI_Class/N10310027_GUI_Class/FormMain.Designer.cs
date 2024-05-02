@@ -1,6 +1,6 @@
 ﻿namespace N10310027_GUI_Class
 {
-    partial class FormMain
+    partial class Timer
     {
         /// <summary>
         /// 設計工具所需的變數。
@@ -35,6 +35,7 @@
             this.btnTextBox = new System.Windows.Forms.Button();
             this.btnMid = new System.Windows.Forms.Button();
             this.btnHW2 = new System.Windows.Forms.Button();
+            this.btnTimer = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label_Class
@@ -75,7 +76,7 @@
             // 
             // btnButton
             // 
-            this.btnButton.Location = new System.Drawing.Point(25, 174);
+            this.btnButton.Location = new System.Drawing.Point(25, 104);
             this.btnButton.Margin = new System.Windows.Forms.Padding(4);
             this.btnButton.Name = "btnButton";
             this.btnButton.Size = new System.Drawing.Size(133, 53);
@@ -86,7 +87,7 @@
             // 
             // btnTextBox
             // 
-            this.btnTextBox.Location = new System.Drawing.Point(25, 266);
+            this.btnTextBox.Location = new System.Drawing.Point(25, 196);
             this.btnTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.btnTextBox.Name = "btnTextBox";
             this.btnTextBox.Size = new System.Drawing.Size(133, 53);
@@ -97,7 +98,7 @@
             // 
             // btnMid
             // 
-            this.btnMid.Location = new System.Drawing.Point(25, 358);
+            this.btnMid.Location = new System.Drawing.Point(25, 288);
             this.btnMid.Name = "btnMid";
             this.btnMid.Size = new System.Drawing.Size(133, 53);
             this.btnMid.TabIndex = 5;
@@ -107,7 +108,7 @@
             // 
             // btnHW2
             // 
-            this.btnHW2.Location = new System.Drawing.Point(25, 453);
+            this.btnHW2.Location = new System.Drawing.Point(213, 104);
             this.btnHW2.Margin = new System.Windows.Forms.Padding(4);
             this.btnHW2.Name = "btnHW2";
             this.btnHW2.Size = new System.Drawing.Size(133, 53);
@@ -116,11 +117,24 @@
             this.btnHW2.UseVisualStyleBackColor = true;
             this.btnHW2.Click += new System.EventHandler(this.btnHW2_Click);
             // 
-            // FormMain
+            // btnTimer
+            // 
+            this.btnTimer.Cursor = System.Windows.Forms.Cursors.SizeWE;
+            this.btnTimer.Location = new System.Drawing.Point(213, 196);
+            this.btnTimer.Margin = new System.Windows.Forms.Padding(4);
+            this.btnTimer.Name = "btnTimer";
+            this.btnTimer.Size = new System.Drawing.Size(133, 53);
+            this.btnTimer.TabIndex = 7;
+            this.btnTimer.Text = "Timer";
+            this.btnTimer.UseVisualStyleBackColor = true;
+            this.btnTimer.Click += new System.EventHandler(this.btnTimer_Click);
+            // 
+            // Timer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1067, 600);
+            this.Controls.Add(this.btnTimer);
             this.Controls.Add(this.btnHW2);
             this.Controls.Add(this.btnMid);
             this.Controls.Add(this.btnTextBox);
@@ -130,7 +144,7 @@
             this.Controls.Add(this.label_Class);
             this.Font = new System.Drawing.Font("標楷體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.Margin = new System.Windows.Forms.Padding(4);
-            this.Name = "FormMain";
+            this.Name = "Timer";
             this.Text = "GUI主程式";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -146,6 +160,7 @@
         private System.Windows.Forms.Button btnTextBox;
         private System.Windows.Forms.Button btnMid;
         private System.Windows.Forms.Button btnHW2;
+        private System.Windows.Forms.Button btnTimer;
     }
 }
 
