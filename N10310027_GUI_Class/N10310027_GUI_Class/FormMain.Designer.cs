@@ -36,6 +36,7 @@
             this.btnMid = new System.Windows.Forms.Button();
             this.btnHW2 = new System.Windows.Forms.Button();
             this.btnTimer = new System.Windows.Forms.Button();
+            this.btnGuessNum = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label_Class
@@ -129,11 +130,24 @@
             this.btnTimer.UseVisualStyleBackColor = true;
             this.btnTimer.Click += new System.EventHandler(this.btnTimer_Click);
             // 
+            // btnGuessNum
+            // 
+            this.btnGuessNum.Cursor = System.Windows.Forms.Cursors.SizeWE;
+            this.btnGuessNum.Location = new System.Drawing.Point(213, 288);
+            this.btnGuessNum.Margin = new System.Windows.Forms.Padding(4);
+            this.btnGuessNum.Name = "btnGuessNum";
+            this.btnGuessNum.Size = new System.Drawing.Size(133, 53);
+            this.btnGuessNum.TabIndex = 8;
+            this.btnGuessNum.Text = "終極密碼";
+            this.btnGuessNum.UseVisualStyleBackColor = true;
+            this.btnGuessNum.Click += new System.EventHandler(this.btnGuessNum_Click);
+            // 
             // Timer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1067, 600);
+            this.Controls.Add(this.btnGuessNum);
             this.Controls.Add(this.btnTimer);
             this.Controls.Add(this.btnHW2);
             this.Controls.Add(this.btnMid);
@@ -161,6 +175,7 @@
         private System.Windows.Forms.Button btnMid;
         private System.Windows.Forms.Button btnHW2;
         private System.Windows.Forms.Button btnTimer;
+        private System.Windows.Forms.Button btnGuessNum;
     }
 }
 

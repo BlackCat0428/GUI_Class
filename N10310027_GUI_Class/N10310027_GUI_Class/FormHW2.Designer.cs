@@ -57,7 +57,7 @@
             // btnAns1
             // 
             this.btnAns1.Location = new System.Drawing.Point(805, 94);
-            this.btnAns1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.btnAns1.Margin = new System.Windows.Forms.Padding(5);
             this.btnAns1.Name = "btnAns1";
             this.btnAns1.Size = new System.Drawing.Size(125, 38);
             this.btnAns1.TabIndex = 0;
@@ -80,7 +80,7 @@
             // 
             this.tB11.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.tB11.Location = new System.Drawing.Point(100, 100);
-            this.tB11.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.tB11.Margin = new System.Windows.Forms.Padding(5);
             this.tB11.Name = "tB11";
             this.tB11.Size = new System.Drawing.Size(164, 29);
             this.tB11.TabIndex = 2;
@@ -89,7 +89,7 @@
             // 
             this.tB12.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.tB12.Location = new System.Drawing.Point(370, 100);
-            this.tB12.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.tB12.Margin = new System.Windows.Forms.Padding(5);
             this.tB12.Name = "tB12";
             this.tB12.Size = new System.Drawing.Size(164, 29);
             this.tB12.TabIndex = 3;
@@ -142,7 +142,7 @@
             // 
             this.tB22.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.tB22.Location = new System.Drawing.Point(370, 200);
-            this.tB22.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.tB22.Margin = new System.Windows.Forms.Padding(5);
             this.tB22.Name = "tB22";
             this.tB22.Size = new System.Drawing.Size(164, 29);
             this.tB22.TabIndex = 9;
@@ -151,7 +151,7 @@
             // 
             this.tB21.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.tB21.Location = new System.Drawing.Point(100, 200);
-            this.tB21.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.tB21.Margin = new System.Windows.Forms.Padding(5);
             this.tB21.Name = "tB21";
             this.tB21.Size = new System.Drawing.Size(164, 29);
             this.tB21.TabIndex = 8;
@@ -170,7 +170,7 @@
             // btnAns2
             // 
             this.btnAns2.Location = new System.Drawing.Point(805, 191);
-            this.btnAns2.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.btnAns2.Margin = new System.Windows.Forms.Padding(5);
             this.btnAns2.Name = "btnAns2";
             this.btnAns2.Size = new System.Drawing.Size(125, 38);
             this.btnAns2.TabIndex = 6;
@@ -204,7 +204,7 @@
             // 
             this.tB32.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.tB32.Location = new System.Drawing.Point(370, 300);
-            this.tB32.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.tB32.Margin = new System.Windows.Forms.Padding(5);
             this.tB32.Name = "tB32";
             this.tB32.Size = new System.Drawing.Size(164, 29);
             this.tB32.TabIndex = 15;
@@ -213,7 +213,7 @@
             // 
             this.tB31.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.tB31.Location = new System.Drawing.Point(100, 300);
-            this.tB31.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.tB31.Margin = new System.Windows.Forms.Padding(5);
             this.tB31.Name = "tB31";
             this.tB31.Size = new System.Drawing.Size(164, 29);
             this.tB31.TabIndex = 14;
@@ -232,7 +232,7 @@
             // btnAns3
             // 
             this.btnAns3.Location = new System.Drawing.Point(805, 291);
-            this.btnAns3.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.btnAns3.Margin = new System.Windows.Forms.Padding(5);
             this.btnAns3.Name = "btnAns3";
             this.btnAns3.Size = new System.Drawing.Size(125, 38);
             this.btnAns3.TabIndex = 12;
@@ -266,7 +266,7 @@
             // 
             this.tB42.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.tB42.Location = new System.Drawing.Point(370, 400);
-            this.tB42.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.tB42.Margin = new System.Windows.Forms.Padding(5);
             this.tB42.Name = "tB42";
             this.tB42.Size = new System.Drawing.Size(164, 29);
             this.tB42.TabIndex = 21;
@@ -275,7 +275,7 @@
             // 
             this.tB41.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.tB41.Location = new System.Drawing.Point(100, 400);
-            this.tB41.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.tB41.Margin = new System.Windows.Forms.Padding(5);
             this.tB41.Name = "tB41";
             this.tB41.Size = new System.Drawing.Size(164, 29);
             this.tB41.TabIndex = 20;
@@ -294,7 +294,7 @@
             // btnAns4
             // 
             this.btnAns4.Location = new System.Drawing.Point(805, 391);
-            this.btnAns4.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.btnAns4.Margin = new System.Windows.Forms.Padding(5);
             this.btnAns4.Name = "btnAns4";
             this.btnAns4.Size = new System.Drawing.Size(125, 38);
             this.btnAns4.TabIndex = 18;
@@ -332,9 +332,9 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnAns1);
             this.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "FormHW2";
-            this.Text = "FormHW2";
+            this.Text = "作業2";
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -48,5 +48,12 @@ namespace N10310027_GUI_Class
             form.Show();
 
         }
+
+        private void btnGuessNum_Click(object sender, EventArgs e)
+        {
+            Form form = new FormGuessNum();
+            form.Show();
+
+        }
     }
 }

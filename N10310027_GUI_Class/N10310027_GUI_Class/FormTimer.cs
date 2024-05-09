@@ -18,13 +18,31 @@ namespace N10310027_GUI_Class
         {
             InitializeComponent();
 
+            timer1.Enabled = false;
+
         }
 
         private void timer1_Tick(object sender, EventArgs e)
         {
 
             labSec.Text = sec.ToString()+"秒";
-            this.sec++; //加佳
+            this.sec++;
+        }
+
+        private void btnStart_Click(object sender, EventArgs e)
+        {
+            timer1.Enabled = true;
+        }
+
+        private void btnStop_Click(object sender, EventArgs e)
+        {
+            timer1.Enabled = false;
+        }
+
+        private void btnZero_Click(object sender, EventArgs e)
+        {
+            this.sec = 0;
+            labSec.Text = "0秒";
         }
     }
 }

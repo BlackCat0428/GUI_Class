@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FormGuessNum.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGuessNum.Designer.cs">
+      <DependentUpon>FormGuessNum.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormHW2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -86,6 +92,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FormButton.resx">
       <DependentUpon>FormButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGuessNum.resx">
+      <DependentUpon>FormGuessNum.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormHW2.resx">
       <DependentUpon>FormHW2.cs</DependentUpon>

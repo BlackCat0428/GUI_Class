@@ -90,7 +90,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "FormMid";
-            this.Text = "FormMid";
+            this.Text = "期中";
             this.ResumeLayout(false);
             this.PerformLayout();
 

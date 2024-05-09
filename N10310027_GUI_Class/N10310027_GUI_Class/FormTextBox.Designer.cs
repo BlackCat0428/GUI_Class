@@ -337,7 +337,7 @@
             this.Controls.Add(this.btnInput);
             this.Controls.Add(this.tbInput);
             this.Name = "FormTextBox";
-            this.Text = "FormTesxtBox";
+            this.Text = "文字框";
             this.ResumeLayout(false);
             this.PerformLayout();
 

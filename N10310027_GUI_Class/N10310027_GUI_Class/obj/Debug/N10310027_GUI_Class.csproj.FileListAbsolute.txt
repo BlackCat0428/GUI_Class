@@ -13,3 +13,4 @@ C:\Users\MEGAS\Desktop\GUI_Class\N10310027_GUI_Class\N10310027_GUI_Class\obj\Deb
 C:\Users\MEGAS\Desktop\GUI_Class\N10310027_GUI_Class\N10310027_GUI_Class\obj\Debug\N10310027_GUI_Class.FormHW2.resources
 C:\Users\MEGAS\Desktop\GUI_Class\N10310027_GUI_Class\N10310027_GUI_Class\obj\Debug\N10310027_GUI_Class.Timer.resources
 C:\Users\MEGAS\Desktop\GUI_Class\N10310027_GUI_Class\N10310027_GUI_Class\obj\Debug\N10310027_GUI_Class.FormTimer.resources
+C:\Users\MEGAS\Desktop\GUI_Class\N10310027_GUI_Class\N10310027_GUI_Class\obj\Debug\N10310027_GUI_Class.FormGuessNum.resources
