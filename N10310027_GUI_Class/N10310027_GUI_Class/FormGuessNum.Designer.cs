@@ -28,11 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
             this.btnStart = new System.Windows.Forms.Button();
             this.btnGuess = new System.Windows.Forms.Button();
             this.labClub = new System.Windows.Forms.Label();
             this.tbGuess = new System.Windows.Forms.TextBox();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // label1
@@ -83,6 +85,10 @@
             this.tbGuess.Size = new System.Drawing.Size(196, 22);
             this.tbGuess.TabIndex = 4;
             // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            // 
             // FormGuessNum
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -107,5 +113,6 @@
         private System.Windows.Forms.Button btnGuess;
         private System.Windows.Forms.Label labClub;
         private System.Windows.Forms.TextBox tbGuess;
+        private System.Windows.Forms.Timer timer1;
     }
 }
