@@ -37,6 +37,7 @@
             this.btnHW2 = new System.Windows.Forms.Button();
             this.btnTimer = new System.Windows.Forms.Button();
             this.btnGuessNum = new System.Windows.Forms.Button();
+            this.btnFinal = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label_Class
@@ -56,7 +57,7 @@
             this.label_ID.AutoSize = true;
             this.label_ID.Font = new System.Drawing.Font("標楷體", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.label_ID.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.label_ID.Location = new System.Drawing.Point(435, 12);
+            this.label_ID.Location = new System.Drawing.Point(180, 12);
             this.label_ID.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label_ID.Name = "label_ID";
             this.label_ID.Size = new System.Drawing.Size(158, 32);
@@ -68,7 +69,7 @@
             this.label_Name.AutoSize = true;
             this.label_Name.Font = new System.Drawing.Font("標楷體", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.label_Name.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.label_Name.Location = new System.Drawing.Point(904, 12);
+            this.label_Name.Location = new System.Drawing.Point(360, 12);
             this.label_Name.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label_Name.Name = "label_Name";
             this.label_Name.Size = new System.Drawing.Size(110, 32);
@@ -109,7 +110,7 @@
             // 
             // btnHW2
             // 
-            this.btnHW2.Location = new System.Drawing.Point(213, 104);
+            this.btnHW2.Location = new System.Drawing.Point(195, 104);
             this.btnHW2.Margin = new System.Windows.Forms.Padding(4);
             this.btnHW2.Name = "btnHW2";
             this.btnHW2.Size = new System.Drawing.Size(133, 53);
@@ -121,7 +122,7 @@
             // btnTimer
             // 
             this.btnTimer.Cursor = System.Windows.Forms.Cursors.SizeWE;
-            this.btnTimer.Location = new System.Drawing.Point(213, 196);
+            this.btnTimer.Location = new System.Drawing.Point(195, 196);
             this.btnTimer.Margin = new System.Windows.Forms.Padding(4);
             this.btnTimer.Name = "btnTimer";
             this.btnTimer.Size = new System.Drawing.Size(133, 53);
@@ -133,7 +134,7 @@
             // btnGuessNum
             // 
             this.btnGuessNum.Cursor = System.Windows.Forms.Cursors.SizeWE;
-            this.btnGuessNum.Location = new System.Drawing.Point(213, 288);
+            this.btnGuessNum.Location = new System.Drawing.Point(195, 288);
             this.btnGuessNum.Margin = new System.Windows.Forms.Padding(4);
             this.btnGuessNum.Name = "btnGuessNum";
             this.btnGuessNum.Size = new System.Drawing.Size(133, 53);
@@ -142,11 +143,24 @@
             this.btnGuessNum.UseVisualStyleBackColor = true;
             this.btnGuessNum.Click += new System.EventHandler(this.btnGuessNum_Click);
             // 
+            // btnFinal
+            // 
+            this.btnFinal.Cursor = System.Windows.Forms.Cursors.SizeWE;
+            this.btnFinal.Location = new System.Drawing.Point(366, 104);
+            this.btnFinal.Margin = new System.Windows.Forms.Padding(4);
+            this.btnFinal.Name = "btnFinal";
+            this.btnFinal.Size = new System.Drawing.Size(133, 53);
+            this.btnFinal.TabIndex = 9;
+            this.btnFinal.Text = "期末考－菜單";
+            this.btnFinal.UseVisualStyleBackColor = true;
+            this.btnFinal.Click += new System.EventHandler(this.btnFinal_Click);
+            // 
             // Timer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1067, 600);
+            this.ClientSize = new System.Drawing.Size(550, 434);
+            this.Controls.Add(this.btnFinal);
             this.Controls.Add(this.btnGuessNum);
             this.Controls.Add(this.btnTimer);
             this.Controls.Add(this.btnHW2);
@@ -176,6 +190,7 @@
         private System.Windows.Forms.Button btnHW2;
         private System.Windows.Forms.Button btnTimer;
         private System.Windows.Forms.Button btnGuessNum;
+        private System.Windows.Forms.Button btnFinal;
     }
 }
 

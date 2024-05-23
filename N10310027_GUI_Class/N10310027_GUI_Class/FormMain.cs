@@ -55,5 +55,12 @@ namespace N10310027_GUI_Class
             form.Show();
 
         }
+
+        private void btnFinal_Click(object sender, EventArgs e)
+        {
+            Form form = new FormFinal();
+            form.Show();
+
+        }
     }
 }
